@@ -1,6 +1,12 @@
 # RCCF-PEP25
 All code for RCCF's PEP 25 Competition Boat
 
+# About:
+The boat is be controlled by [ArduRover](https://ardupilot.org/rover/). The onboard flight controller is a [CubePilot Orange](https://ardupilot.org/copter/docs/common-thecubeorange-overview.html).
+
+Learn how to install Mission Planner [here](https://ardupilot.org/planner/docs/mission-planner-installation.html). When the CubePilot is connected to a computer in Mission Planner, the latest version of ArduRover can be installed. Download the [parameters](PEP25ArdupilotParameters.param) and upload them to the Board in Mission Planner.
+
 ## In This Repository:
 - Ardupilot parameter list
-- ESP32 PWM to Stepper
+- [ESP32 PWM to Stepper](https://github.com/RoboticsClubatUCF/ESP32-PWM-to-Stepper/tree/8160392d6b5879aeb35a627ed0b1841411643998)
+	- Rudder control
