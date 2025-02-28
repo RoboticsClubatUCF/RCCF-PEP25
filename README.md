@@ -28,6 +28,7 @@ git submodule update --init --recursive
 ## Goals:
 - Reliable RC Control of Boat
 - CAN BUS communication with ESC
+- Autonomous waypoint following
 - WiFi based communications:
 	- Camera stream
 	- Temperature sensors on high power components
