@@ -24,11 +24,14 @@ git submodule update --init --recursive
 - Ardupilot parameter list
 - [ESP32 PWM to Stepper](https://github.com/RoboticsClubatUCF/ESP32-PWM-to-Stepper/tree/8160392d6b5879aeb35a627ed0b1841411643998)
 	- Rudder control
+- RPi Stuff
+- Electrical Diagrams
 
 ## Goals:
 - Reliable RC Control of Boat
 - CAN BUS communication with ESC
 - Autonomous waypoint following
+	- Looking at connecting a USB GPS to RPi and forwarding that data via MavLink
 - WiFi based communications:
 	- Camera stream
 	- Temperature sensors on high power components
