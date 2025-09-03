@@ -26,8 +26,6 @@ git submodule update --init --recursive
 	- Lua scripts to allow for arm/disarming of the relay and for a reverse switch on the controller
 - [ESP32 PWM to Stepper](https://github.com/RoboticsClubatUCF/ESP32-PWM-to-Stepper/tree/8160392d6b5879aeb35a627ed0b1841411643998)
 	- Rudder control
-- RPi Stuff
-- Electrical Diagrams
 
 ## Goals:
 - Reliable RC Control of Boat
