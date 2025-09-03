@@ -1,6 +1,15 @@
+## Installation
+The latest version of ArduRover can be installed from inside MissionPlanner or another ground control software.
+
 ## ArduPilot Parameters
 ArduPilot uses a parameter list to configure vehicles. Inside Mission Planner, configurations can be backed up and uploaded from a file.
 Parameters include mapping controls, reversing PWM signals, throttle threshholds, RC input types, etc.
+If you are having an issue with the AutoPilot board, it is likely a configuration error. The latest parameters for the boat can be found in PEP25ArdupilotParameters.param.
+
+### Important Parameters:
+- RC Transmitter: CH7 (Top Left Switch) for Arming/Disarming (Up is Disarmed)
+- Connections: Servo1: Steering (to Arduino for Stepper Control) Servo3: Throttle (to VESC)
+
 
 ## Lua Scripts
 Some Autopilot boards such as the Cube Orange allow for Lua Scripts. This is a simple way to expand the capabilities of ArduPilot without modifiying the source code itself.
