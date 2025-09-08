@@ -1,5 +1,5 @@
 # Electrical System
-![Electrical Diagram](Full Boat.png)
+![Electrical Diagram]("Full Boat.png")
 *Diagram includes components not yet implemented on boat*
 
 The electrical system is divided into to subsystems:
